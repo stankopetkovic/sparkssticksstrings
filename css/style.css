@@ -1,0 +1,183 @@
+/* Vinta SS - Under Construction Page */
+
+/* Design by Jonathan Lindstrom - http://www.epicsdesign.com/
+   Code by Reid Knorr - http://www.reidknorr.com/
+   Copyright 2009 - Vinta SS - All rights reserved.
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	background: #3d4752 url('../images/background.jpg') no-repeat top center;
+}
+h1 {
+	font-size: 24px;
+	color: #323232;
+	font-weight: normal;
+}
+h1.countdown {
+	color: #7e7e7e;
+	padding-top: 2px;
+}
+h2 {
+	font-size: 18px;
+	color: #3f3f3f;
+	font-weight: normal;
+}
+h5 {
+	font-size: 12px;
+	color: #9a9a9a;
+	font-weight: normal;
+	padding: 5px 0px 5px 0px;
+}
+#wrapper {
+	width: 930px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 190px;
+}
+#logo {
+	width: 264px;
+	height: 80px;
+	background: url('../images/logo.png') no-repeat;
+	margin: 5px auto 5px auto;
+}
+#content_top {
+	clear: both;
+	width: 930px;
+	height: 142px;
+	background: url('../images/top_bg.png') no-repeat;
+	text-align: center;
+	padding: 50px 0px 0px 0px;
+}
+#content_bottom {
+	clear: both;
+	width: 930px;
+	height: 153px;
+	background: url('../images/bottom_bg.png') no-repeat;
+}
+	#progress {
+		clear: both;
+		padding: 20px 0px 0px 0px;
+		width: 930px;
+		height: 60px;
+		text-align: center;
+	}
+	#progress h5 {
+		padding: 0;
+		color: #3f3f3f;
+		font-size: 12px;
+	}
+#progress_div {
+	height: 13px;
+	width: 880px;
+	background: url('../images/div_progress.jpg') no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+#progress_position {
+	position: relative;
+	top: -22px;
+	width: 930px;
+	z-index: 1;
+}
+#progress_bar_bg {
+	width: 884px;
+	height: 13px;
+	background: url('../images/progress_bg.jpg') no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+#progress_bar {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	height: 11px;
+}
+	#progress_left {
+		width: 6px;
+		height: 11px;
+		background: url('../images/progress_left.jpg') no-repeat;
+		float: left;
+	}
+	#progress_right {
+		height: 11px;
+		background: url('../images/progress_right.jpg') no-repeat top right;
+		float: left;
+	}
+	#progress_bar.ten_percent {
+		width: 88px;
+	}
+		#progress_bar.ten_percent #progress_right {
+			width: 82px;
+		}
+	#progress_bar.twenty_percent {
+		width: 176px;
+	}
+		#progress_bar.twenty_percent #progress_right {
+			width: 170px;
+		}
+	#progress_bar.thirty_percent {
+		width: 264px;
+	}
+		#progress_bar.thirty_percent #progress_right {
+			width: 258px;
+		}
+	#progress_bar.fourty_percent {
+		width: 352px;
+	}
+		#progress_bar.fourty_percent #progress_right {
+			width: 346px;
+		}
+	div#progress_bar.fifty_percent {
+		width: 440px;
+	}
+		#progress_bar.fifty_percent #progress_right {
+			width: 434px;
+		}
+	#progress_bar.sixty_percent {
+		width: 528px;
+	}
+		#progress_bar.sixty_percent #progress_right {
+			width: 522px;
+		}
+	#progress_bar.seventy_percent {
+		width: 616px;
+	}
+		#progress_bar.seventy_percent #progress_right {
+			width: 610px;
+		}
+	#progress_bar.eighty_percent {
+		width: 704px;
+	}
+		#progress_bar.eighty_percent #progress_right {
+			width: 698px;
+		}
+	#progress_bar.ninety_percent {
+		width: 792px;
+	}
+		#progress_bar.ninety_percent #progress_right {
+			width: 786px;
+		}
+	#progress_bar.hundred_percent {
+		width: 876px;
+	}
+		#progress_bar.hundred_percent #progress_right {
+			width: 868px;
+		}
+#progress_slider {
+	height: 34px;
+	width: 39px;
+	background: url('../images/progress_slider.png') no-repeat;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	line-height: 34px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: 5;
+}
